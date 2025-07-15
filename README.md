@@ -41,6 +41,7 @@ quicknotes/
 │   └── index.html
 └── static/
     └── style.css
+```
 ---
 
 ## ⚙️ Local Setup (Docker Compose)
