@@ -1,4 +1,4 @@
-```markdown
+
 # 📝 QuickNotes
 
 A lightweight Flask-based note-taking app, containerized with Docker and ideal for practicing modern DevOps and container deployment workflows.
@@ -29,46 +29,29 @@ This project reflects hands-on work from concept to container, with a focus on s
 
 ## 📁 File Structure
 
-```
-
-quicknotes/
-├── .env
-├── .env.example
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── webapp.py
-├── templates/
-│   └── index.html
-└── static/
-└── style.css
-
-````
-
+<pre> ```text quicknotes/ ├── .env ├── .env.example ├── Dockerfile ├── docker-compose.yml ├── requirements.txt ├── webapp.py ├── templates/ │ └── index.html └── static/ └── style.css ``` </pre>
 ---
 
 ## ⚙️ Local Setup (Docker Compose)
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/YOUR_USERNAME/quicknotes.git
 cd quicknotes
-````
+
 
 ### 2. Configure Environment Variables
 
-```bash
+
 cp .env.example .env
-```
 
 > Update `.env` as needed. Default Flask port is `5000`.
 
 ### 3. Run Locally
 
-```bash
+
 docker compose up --build
-```
 
 Visit [http://localhost:5000](http://localhost:5000)
 
@@ -77,7 +60,7 @@ Visit [http://localhost:5000](http://localhost:5000)
 ## 🔐 Security Practices
 
 * Secrets are externalized via `.env` and not hardcoded.
-* Docker image is lean, exposing only the necessary port (5000).
+* Docker image is lean, exposing only the necessary port (5000 or 5001).
 * Follows container isolation best practices.
 * Local dev setup isolates dependencies and avoids system conflicts.
 
@@ -102,11 +85,5 @@ Use this repo to:
 * Practice Python containerization
 * Run test environments locally
 * Share or fork for training labs or small business internal use
-
----
-
-**Built to teach. Structured for DevOps. Ready for your next project.**
-
-```
 
 ---
