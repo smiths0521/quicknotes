@@ -29,7 +29,18 @@ This project reflects hands-on work from concept to container, with a focus on s
 
 ## 📁 File Structure
 
-<pre> ```text quicknotes/ ├── .env ├── .env.example ├── Dockerfile ├── docker-compose.yml ├── requirements.txt ├── webapp.py ├── templates/ │ └── index.html └── static/ └── style.css ``` </pre>
+```text
+quicknotes/
+├── .env
+├── .env.example
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── webapp.py
+├── templates/
+│   └── index.html
+└── static/
+    └── style.css
 ---
 
 ## ⚙️ Local Setup (Docker Compose)
